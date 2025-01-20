@@ -5,9 +5,7 @@ import com.battle.heroes.army.Unit;
 import com.battle.heroes.army.programs.PrintBattleLog;
 import com.battle.heroes.army.programs.SimulateBattle;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Iterator;
+import java.util.*;
 
 public class SimulateBattleImpl implements SimulateBattle {
     private PrintBattleLog printBattleLog; // Логгер для вывода логов после каждой атаки
